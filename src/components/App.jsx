@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import ImageGallery from './ImageGallery/ImageGallery';
 import Searchbar from './Searchbar/Searchbar';
-import { Button } from 'components/Button/Button';
+import { Button } from './Button/Button';
 import { Audio } from 'react-loader-spinner';
 import css from './App.module.css';
-import Modal from 'components/Modal/Modal';
+import Modal from './Modal/Modal';
 
 const KEY = '32133259-eb605dfa2d96a82515a2bf160';
 
