@@ -59,6 +59,7 @@ export default function App() {
   return (
     <div className={css.App}>
       <Searchbar onSubmit={onSubmit} />
+      {error && <p>{error}</p>}
       {loading && <Audio />}
       <ImageGallery items={items} openModal={openModal} />
       {Boolean(items.length) && <Button onLoadMore={loadMore} />}
